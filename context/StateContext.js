@@ -39,6 +39,8 @@ export const StateContext = ({ children }) => {
     toast.success(`${qty} ${product.name} added to the cart.`);
   };
 
+  const toggleCartItemQuantity = () => {};
+
   const incQty = () => {
     setQty((prevQty) => prevQty + 1);
   };
